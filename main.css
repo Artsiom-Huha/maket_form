@@ -52,5 +52,49 @@ div.inline-radio label, input{
     top: 175px;
     left: 10px;
 }
+@media all and (max-width: 295.68px){
+    .sub-pos{
+        
+        top: 294px;
+        
+    }
+}
+@media all and (max-width: 218.88px){
+    .sub-pos{
+        
+        top: 312px;
+        
+    }
+}
+@media all and (max-width: 169.60px){
+    .sub-pos{
+        
+        top: 330px;
+        
+    }
+}
+@media all and (max-width: 166.40px){
+    .sub-pos{
+        
+        top: 348px;
+        
+    }
+}
+@media all and (max-width: 144px){
+    .sub-pos{
+        
+        top: 366px;
+        
+    }
+}
+@media all and (max-width: 124.80px){
+    .sub-pos{
+        
+        top: 384px;
+        
+    }
+}
+@media all and (max-width: 120.32px){
+    .sub-pos{
 
 
