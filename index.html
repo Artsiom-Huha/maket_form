@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/meadi.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="wide-form" action="" style="position: relative;  width: 80%">
+        Для публикации вашей статьи, заполните, пожалуйста, следующую форму:
+        <div class="circs-label">
+            <label for="article-input">Название статьи:</label>
+            <label for="list-input">Рубрика:</label>
+            <label for="radio-input">Публикация:</label>
+            <label for="check-input" class="check-pos">Разрешить комментарии:</label>
+            <label for="text-input">Текст статьи:</label>
+        </div>
+        <div class="input-fill">
+            <input type="text" id="article-input" class="article-text">
+            <select name="" id="list-input">
+                <option value="">компьютерная техника</option>
+                <option value="">графика и дизайн</option>
+                <option value="">программирование</option>
+            </select>
+            <div class="inline-radio">
+                <span style="white-space: nowrap;"><input type="radio" id="radio-input" name="show-radio">
+                <label for="" class="inline-radio">на сайте</label></span>
+                <span style="white-space: nowrap;"><input type="radio" id="radio-input" name="show-radio">
+                <label for="" class="inline-radio">в журнале</label></span>
+                <span style="white-space: nowrap;"><input type="radio" id="radio-input" name="show-radio">
+                <label for="" class="inline-radio">на сайте и в журнале</label></span>
+            </div>
+            <input type="checkbox" id="check-input" class="check-position">
+        </div>
+        <textarea id="text-input" class="textarea-position"></textarea>
+        <input type="submit" value="Опубликовать" class="sub-pos">
+    </form>
+    
+    
+    
+    <form class="narrow-form" action="" style="width: 100%;">
+        <p>Для публикации вашей статьи, заполните, пожалуйста, следующую форму:</p> 
+        <label for="article-input">Название статьи:</label><br>
+        <input type="text" id="article-input" class="article-text-n"><br>
+
+        <label for="list-input">Рубрика:</label>
+        <select name="" id="list-input">
+            <option value="">компьютерная техника</option>
+            <option value="">графика и дизайн</option>
+            <option value="">программирование</option>
+        </select>
+
+        <div class="publication"><label for="radio-input">Публикация:</label><br>
+        <input type="radio" id="radio-input" name="show-radio">
+        <label for="" class="inline-radio">на сайте</label><br>
+        <input type="radio" id="radio-input" name="show-radio">
+        <label for="" class="inline-radio">в журнале</label><br>
+        <input type="radio" id="radio-input" name="show-radio">
+        <label for="" class="inline-radio">на сайте и в журнале</label></div>
+
+        <label for="text-input">Текст статьи:</label><br>
+        <textarea id="text-input" class="textarea-position-n"></textarea>
+        <input type="submit" value="Опубликовать" class="sub-pos">
+    </form>
+</body>
+</html>

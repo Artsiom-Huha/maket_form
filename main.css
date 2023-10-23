@@ -1,0 +1,56 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.input-fill input, select{
+    display: block;
+    margin-top: 5px;
+}
+.circs-label label{
+    display: block;
+   margin-top: 5px;
+
+}
+.circs-label{
+    position: absolute;
+    left: 10px;
+    width: 172px;
+}
+.input-fill{
+    position: absolute;
+    left: 184px;
+    right: 0;
+}
+div.inline-radio label, input{
+    display: inline-block !important; 
+}
+.inline-radio input{
+    position: relative;
+    top: 3px;
+    margin-right: 0px;
+    }
+.inline-radio label{
+    margin-right: 5px;
+}
+.check-position{
+    position: relative;
+    top: 4px
+}
+.textarea-position{
+    position: absolute;
+    top: 136px;
+    left: 10px;
+    width: 100%;
+}
+.article-text{
+    width: 100%;
+    margin-top: 100px;
+}
+.sub-pos{
+    position: absolute;
+    top: 175px;
+    left: 10px;
+}
+
+
