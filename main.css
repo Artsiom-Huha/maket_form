@@ -96,5 +96,8 @@ div.inline-radio label, input{
 }
 @media all and (max-width: 120.32px){
     .sub-pos{
+        top: 402px;
+    }
+}
 
 
